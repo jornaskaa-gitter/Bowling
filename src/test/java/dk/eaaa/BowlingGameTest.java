@@ -22,7 +22,7 @@ public class BowlingGameTest {
 	@Test
 	public void testAllOnePinGame() throws Exception {
 		rollMany(20, 1);
-		assertEquals(20, game.getScore()-1);
+		assertEquals(20, game.getScore());
 	}
 	
 	@Test
